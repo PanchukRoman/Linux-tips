@@ -1,0 +1,14 @@
+#!/bin/bahs
+for file in /etc/*
+do
+if [ -d "$file" ]
+then
+echo "$file is directory"
+elif [ -f "$file" ]
+then
+echo "$file is file"
+fi
+done
+
+#Не думал, что отступы будут играть такую важную роль в написании скрипта
+#did not think that indentation would play such a role in writing a script
