@@ -1,0 +1,9 @@
+  ${arr[*]} # Все записи в массиве
+  ${!arr[*]}# Все индексы в массиве
+  ${#arr[*]}# Количество записей в массиве
+  ${#arr[0]}# Длина первой записи (нумерация с нуля)
+  ==================================================
+  $ {arr [*]} # All entries in the array
+  $ {! arr [*]} # All indices in the array
+  $ {# arr [*]} # Number of records in the array
+  $ {# arr [0]} # Length of the first record (numbered from zero)
